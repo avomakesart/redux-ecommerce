@@ -1,0 +1,39 @@
+
+header {
+    background: #191919;
+    height: 80px;
+    padding: 1rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbox_container {
+    margin-right: auto;
+    margin-left: 4rem;
+}
+
+.link_container {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.brand {
+    margin-left: 3rem;
+    color: #ffffff;
+}
+
+.link {
+    color: #ffffff;
+    margin-right: 3rem;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}

@@ -1,0 +1,23 @@
+.product_container {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+}
+
+.product_description_container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+@media (min-width: 1000px) {
+    .product_container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .product_description_container {
+        padding: 2rem;
+    }
+
+}
